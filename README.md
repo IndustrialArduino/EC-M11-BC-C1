@@ -26,3 +26,6 @@ Analog inputs (0 – 10V DC)
 1:   White:   Solar Panel +
 2:   Black:   NC
 3:   Brown:   Solar Panel -
+
+Datasheet:   https://drive.google.com/open?id=1xgNyYzslshlLAkHS3CCiQ007XTlocZiO&usp=drive_fs
+User Guide:  https://drive.google.com/open?id=1wE8Vb8uJ66wQHdZ5wmuUY3ZATU8orGJp&usp=drive_fs
