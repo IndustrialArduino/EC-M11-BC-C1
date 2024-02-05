@@ -4,7 +4,6 @@
  * Digital Input Test
  * RS-485 Serial print
  * 12V Booster Enable / Disable
- * 
  */
 
 #include <Adafruit_ADS1015.h>
