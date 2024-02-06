@@ -1,11 +1,4 @@
-// EC-M11-EG-C1
-/*
- * Analog Input Test
- * Digital Input Test
- * RS-485 Serial print
- * 12V Booster Enable / Disable
- * 
- */
+
 
 #include <Adafruit_ADS1015.h>
 
