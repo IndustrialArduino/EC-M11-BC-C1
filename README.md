@@ -31,4 +31,4 @@ Datasheet_Version1:   https://norvi.lk/docs/norvi-ec-m11-bc-c1-datasheet/
 User Guide_Version1:  https://norvi.lk/docs/norvi-ec-m11-bc-c1-user-guide/
 
 Datasheet_Version1:   https://norvi.lk/docs/norvi-ec-m11-bc-c1_v2-datasheet/
-User Guide_Version1:  https://norvi.lk/docs/norvi-ec-m11-bc-c1_v2-user-guide/
+User Guide_Version1:  https://norvi.lk/docs/norvi-ec-m11-bc-c1_v2-user-guide/    
