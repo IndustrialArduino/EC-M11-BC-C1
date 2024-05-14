@@ -13,16 +13,13 @@ void setup() {
 
   Serial.println("The device is powered up");
   
-  pinMode(35, INPUT);    // Digital Input 1
-  pinMode(34, INPUT);    // Digital Input 2
+  pinMode(34, INPUT);    // Digital Input 1
 
   pinMode(21, INPUT);    // ADS1115 Interrupt
 
   pinMode(36, INPUT);    // Analog input-battery voltage monitor
     
   pinMode(18, OUTPUT);    // 12V boosted output enable
-  //pinMode(32, OUTPUT);    // SIM7000 Power - only on LTE version
-
   
   
   ads1.begin();
@@ -34,7 +31,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  Serial.print("I1: ");Serial.println(digitalRead(35));
   Serial.print("I2: ");Serial.println(digitalRead(34));
   Serial.print("Battery Voltage: ");Serial.println(readBattery());
   delay(800);
@@ -42,7 +38,7 @@ void loop() {
   delay(800);
   digitalWrite(18,HIGH);
   delay(800);
-}
+}  
 
 int readBattery(){
   unsigned int analog_value;
