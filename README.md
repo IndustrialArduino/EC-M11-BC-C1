@@ -18,14 +18,17 @@ Analog inputs (0 – 10V DC)
 3:   Green:   Analog Input 1
 4:   Yellow:  Analog Input 2
 5:   Gray:    12V+
-6:   Pink:    12V-
+6:   Pink:    GND
 7:   Blue:    -
-8:   Red:     -
+8:   Red:     3.3V
 
 3 Pin Connector
-1:   White:   Solar Panel +
+1:   Blue:   Solar Panel +
 2:   Black:   NC
 3:   Brown:   Solar Panel -
 
-Datasheet:   https://norvi.lk/docs/norvi-ec-m11-bc-c1-datasheet/
-User Guide:  https://norvi.lk/docs/norvi-ec-m11-bc-c1-user-guide/
+Datasheet_Version1:   https://norvi.lk/docs/norvi-ec-m11-bc-c1-datasheet/
+User Guide_Version1:  https://norvi.lk/docs/norvi-ec-m11-bc-c1-user-guide/
+
+Datasheet_Version1:   https://norvi.lk/docs/norvi-ec-m11-bc-c1_v2-datasheet/
+User Guide_Version1:  https://norvi.lk/docs/norvi-ec-m11-bc-c1_v2-user-guide/

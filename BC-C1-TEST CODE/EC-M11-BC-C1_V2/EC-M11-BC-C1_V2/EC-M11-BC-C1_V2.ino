@@ -1,4 +1,11 @@
-
+// EC-M11-EG-C1
+/*
+ * Analog Input Test
+ * Digital Input Test
+ * RS-485 Serial print
+ * 12V Booster Enable / Disable
+ * 
+ */
 
 #include <Adafruit_ADS1015.h>
 
@@ -20,7 +27,7 @@ void setup() {
 
   pinMode(36, INPUT);    // Analog input-battery voltage monitor
     
-  pinMode(18, OUTPUT);    // 12V boosted output enable
+  pinMode(13, OUTPUT);    // 12V boosted output enable
   //pinMode(32, OUTPUT);    // SIM7000 Power - only on LTE version
 
   
@@ -40,7 +47,7 @@ void loop() {
   delay(800);
   printanalog();
   delay(800);
-  digitalWrite(18,HIGH);
+  digitalWrite(13,HIGH);
   delay(800);
 }
 
